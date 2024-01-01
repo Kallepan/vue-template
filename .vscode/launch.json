@@ -2,7 +2,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Launch Chrome against localhost with vite",
+      "name": "Debug: Chrome",
       "type": "chrome",
       "request": "launch",
       "url": "http://localhost:5173",

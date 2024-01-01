@@ -27,15 +27,21 @@
       ],
       "settings": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true,
+        "editor.formatOnSave": false,
         "[javascript]": {
-          "source.organizeImports": true
+          "source.organizeImports": true,
+          "editor.defaultFormatter": "esbenp.prettier-vscode",
+          "editor.formatOnSave": true
         },
         "[typescript]": {
-          "source.organizeImports": true
+          "source.organizeImports": true,
+          "editor.defaultFormatter": "esbenp.prettier-vscode",
+          "editor.formatOnSave": true
         },
         "[vue]": {
-          "source.organizeImports": true
+          "source.organizeImports": true,
+          "editor.defaultFormatter": "esbenp.prettier-vscode",
+          "editor.formatOnSave": true
         }
       }
     }
