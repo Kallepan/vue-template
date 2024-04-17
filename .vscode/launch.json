@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "preLaunchTask": "npm: dev",
+      "name": "Launch Chrome against localhost",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:5173",
+      "enableContentValidation": false,
+      "webRoot": "${workspaceFolder}/src",
+      "skipFiles": ["${workspaceFolder}/node_modules/**/*.js"],
+      "pathMapping": {
+        "url": "/src/",
+        "path": "${webRoot}/"
+      }
+    }
+  ]
+}
