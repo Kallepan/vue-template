@@ -17,6 +17,9 @@ app.use(createPinia());
 app.use(PrimveVue, {
   theme: {
     preset: Aura,
+    options: {
+      darkModeSelector: '.app-dark'
+    }
   },
 });
 
